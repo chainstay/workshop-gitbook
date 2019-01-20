@@ -4,6 +4,47 @@ description: A few notes before we get started
 
 # Start Here
 
+## Some conventions
+
+### Important terms
+
+Important terms in computing will look `like this`. Pay attention to these words. If they are unfamiliar to you, look for them in the Glossary.
+
+#### For example
+
+* The student inserted the `SD Card` into the `USB` port.
+* Plug your `ethernet` cable into the `router` to access the Internet.
+* The cat walked across the `keyboard`
+
+### Icons
+
+{% hint style="info" %}
+When you see this icon, read more to explore a concept more deeply.
+{% endhint %}
+
+{% hint style="danger" %}
+When you see this icon, be careful! Read more to ensure you don't get off track.
+{% endhint %}
+
+{% hint style="success" %}
+When you see this icon, read more to make sure you are ready to move on.
+{% endhint %}
+
+### Code
+
+This is code. You'll be seeing this a lot in today's workshop.
+
+Notice the filename, in this case `filename.py`.
+
+{% code-tabs %}
+{% code-tabs-item title="filename.py" %}
+```python
+def hello_hackher():
+    print('Hello hacker. Welcome to the workshop!')
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
 ## Some Invitations
 
 ### Please Ask Questions
