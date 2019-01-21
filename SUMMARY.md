@@ -13,8 +13,12 @@
 * [What is a programming language?](hello-world/what-is-a-programming-language.md)
 * [What is an application server?](hello-world/what-is-an-application-server.md)
 
+## Hello Terminal
+
+* [Introducing: Your terminal](hello-terminal/introducing-your-terminal.md)
+
 ## Hello Python
 
-* [Programming Languages](hello-python/programming-languages.md)
+* [Introducing Python](hello-python/programming-languages.md)
 * [How to Install Python](hello-python/how-to-install-python.md)
 

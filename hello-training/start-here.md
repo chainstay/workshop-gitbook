@@ -22,7 +22,7 @@ Important terms in computing will look `like this`. Pay attention to these words
 When you see this icon, read more to explore a concept more deeply.
 {% endhint %}
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 When you see this icon, be careful! Read more to ensure you don't get off track.
 {% endhint %}
 
