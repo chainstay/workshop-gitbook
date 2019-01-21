@@ -6,13 +6,9 @@ description: >-
 
 # What is the Internet?
 
-{% hint style="info" %}
-Take a look at the articles below. If you have solid answers to these questions already, or you're itching to jump in head-first, go ahead and skip to [Programming Languages](../hello-python/programming-languages.md). Otherwise, read through the following articles.
-{% endhint %}
-
 ## The Internet is a conversation between computers
 
-Take the following example:
+### For example:
 
 1. Your computer the `client`, asks to read a file on another computer, in a different country
 2. That computer, the `server`, responds `OK`, you can read my file. Here it is
@@ -21,15 +17,11 @@ Take the following example:
 
 There you have it. That's the Internet. This happens every single time you go to a website and often when you click things within a web page.
 
-$$
-client + connection + server = Internet
-$$
-
 {% hint style="success" %}
 Today, you're going to build a server.
 {% endhint %}
 
-
-
-
+{% hint style="info" %}
+Take a look at the articles below. If you have solid answers to these questions already, or you're itching to jump in head-first, go ahead and skip to [Programming Languages](../hello-python/programming-languages.md). Otherwise, read through the following articles.
+{% endhint %}
 
