@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Welcome!](README.md)
 
 ## Hello Training
 
@@ -26,5 +26,5 @@
 ## Hello Flask
 
 * [Let's Write a Web Server!](hello-flask/lets-write-a-web-server.md)
-* [Configuring our Server](hello-flask/configuring-our-server.md)
+* [Adding a New Path](hello-flask/configuring-our-server.md)
 

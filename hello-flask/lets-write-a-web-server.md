@@ -60,6 +60,8 @@ Python files have their own extension: `.py`. You'll also see the `.pyc` extensi
 
 Write the following code in your `app.py` file. **Remember** that the `# code comments` are for you, the coder. They are ignored by Python, and don't have to be written in your `app.py` file.
 
+{% code-tabs %}
+{% code-tabs-item title="app.py" %}
 ```python
 from flask import Flask  # Here, we load the Flask python package
 
@@ -81,6 +83,8 @@ def hello():  # Here, we create a function for the /say_hello path
     # an HTTP response.
     return 'Hello, World!'
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 ## Running your server
 
