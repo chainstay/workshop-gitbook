@@ -2,7 +2,7 @@
 description: And what does code even do?
 ---
 
-# What is a programming language?
+# What is a Programming Language?
 
 ## What is code?
 

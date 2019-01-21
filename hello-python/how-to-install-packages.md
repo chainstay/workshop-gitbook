@@ -4,7 +4,7 @@ description: >-
   when coding with Python.
 ---
 
-# How to install Packages
+# How to Install Packages
 
 ## Installing your first Python Package
 

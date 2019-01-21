@@ -2,7 +2,7 @@
 description: Let's bring it all together
 ---
 
-# What is an application server?
+# What is an Application Server?
 
 ## Intro the Application Server
 

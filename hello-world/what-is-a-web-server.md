@@ -2,7 +2,7 @@
 description: A web server is the fundamental building block of the Internet
 ---
 
-# What is a web server?
+# What is a Web Server?
 
 ## Web servers make the Internet happen
 

@@ -4,7 +4,7 @@ description: >-
   introduced!
 ---
 
-# Introducing: Your terminal
+# Introducing: Your Terminal
 
 ## What's a terminal?
 
