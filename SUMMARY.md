@@ -27,4 +27,5 @@
 
 * [Let's Write a Web Server!](hello-flask/lets-write-a-web-server.md)
 * [Adding a New Path](hello-flask/configuring-our-server.md)
+* [Working a little faster](hello-flask/working-a-little-faster.md)
 
