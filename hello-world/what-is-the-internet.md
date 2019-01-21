@@ -4,7 +4,7 @@ description: >-
   really?
 ---
 
-# What is the Internet?
+# The Internet: a Programmer's Definition
 
 ## The Internet is a conversation between computers
 

@@ -8,7 +8,7 @@
 
 ## Hello World
 
-* [What is the Internet?](hello-world/what-is-the-internet.md)
+* [The Internet: a Programmer's Definition](hello-world/what-is-the-internet.md)
 * [What is a web server?](hello-world/what-is-a-web-server.md)
 * [What is a programming language?](hello-world/what-is-a-programming-language.md)
 * [What is an application server?](hello-world/what-is-an-application-server.md)
@@ -21,4 +21,5 @@
 
 * [Introducing Python](hello-python/programming-languages.md)
 * [How to Install Python](hello-python/how-to-install-python.md)
+* [How to install Packages](hello-python/how-to-install-packages.md)
 
