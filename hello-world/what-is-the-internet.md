@@ -21,7 +21,3 @@ There you have it. That's the Internet. This happens every single time you go to
 Today, you're going to build a server.
 {% endhint %}
 
-{% hint style="info" %}
-Take a look at the articles below. If you have solid answers to these questions already, or you're itching to jump in head-first, go ahead and skip to [Programming Languages](../hello-python/programming-languages.md). Otherwise, read through the following articles.
-{% endhint %}
-
