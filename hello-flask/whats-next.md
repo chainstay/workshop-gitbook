@@ -4,7 +4,7 @@ description: To infinity and beyond!
 
 # What's next?
 
-## You're doing great
+## Well done!
 
 So far, you have:
 
@@ -12,7 +12,56 @@ So far, you have:
 2. Learned the basics of programming languages
 3. Installed Python onto your computer
 4. Run your own Python code
-5. Created the beginnings of your very own web server
+5. Worked with `HTML` `requests` and `responses`
+6. Accepted user input, and used it to control server logic
+7. Looked at some cute animal pictures
+
+### In case your code grew a mind of its own, here is our final result:
+
+{% code-tabs %}
+{% code-tabs-item title="app.py" %}
+```python
+from flask import Flask, request
+
+app = Flask(__name__)
+
+
+@app.route('/say_hello', methods=('GET', 'POST'))
+def hello():
+    if request.method == 'GET':
+        return '''
+            <form method="POST">
+                <label for="formAnimal">Animal Name: </label>
+                <input name="animal" type="text" id="formAnimal" />
+                <input type="submit" value="Send POST" />
+            </form>
+        '''
+
+    animal = request.form['animal']
+    if not animal:
+        return 'Error: No animal provided'
+
+    image_url = ''
+    if animal == 'dog':
+        image_url = 'https://ybxzcgnc7b-flywheel.netdna-ssl.com/wp-content/uploads/2017/11/cute.jpg'
+    elif animal == 'cat':
+        image_url = 'http://www.smashingphotoz.com/wp-content/uploads/2012/11/11_cat_photos.jpg'
+    else:
+        image_url = 'https://img.purch.com/h/1000/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAwOS82Nzkvb3JpZ2luYWwvMDkwNTExLXBsYXR5cHVzLTAyLmpwZw=='
+
+    return '''
+        <h1>Hello {animal_name}!</h1>
+        <image style="width: 100%" src="{image_src}" />
+    '''.format(animal_name=animal, image_src=image_url)
+
+
+@app.route('/')
+def index():
+    return 'Welcome to the server root'
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 ## What's next?
 
@@ -38,14 +87,14 @@ Okay, first of all, _congratulations!_ It takes a lot of bravery to step into a 
 
 Awesome. You are in the perfect position to walk your way through the [Flask Tutorial](http://flask.pocoo.org/docs/1.0/tutorial/). This excellent tutorial, written by the Flask maintainers, is ideal for introducing you to web development with Python. You'll learn, how to:
 
-* Connect Flask to a database
-* Create a login/logout flow for Flask
+* Connect Flask to a `database`
+* Create a `login` and `logout` flow for Flask
 * Keep your code [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) with `Blueprints` and `HTML` `Templates`
-* Write unit tests to protect yourself from introducing bugs
+* Write `unit tests` to protect yourself from introducing bugs
 
 ### **"I've already written Python for the web before. Give me a challenge!"**
 
-![Actual map of the Internet](../.gitbook/assets/image%20%283%29.png)
+![Actual map of the Internet](../.gitbook/assets/image%20%285%29.png)
 
 It's finally time to get your code running on the Internet.
 
@@ -56,7 +105,7 @@ When a web developer \(that's you!\) wants to make their server available online
 {% hint style="danger" %}
 There is tremendous risk associated with deploying apps to the web.
 
-Apps deployed to Heroku, and other cloud providers, are subject to thousands of foreign and domestic hackers attempting to hack your server and obtain secret information. If you get pwned, the hacker could take your account credentials, and within minutes have an army of servers mining Bitcoin, with server costs charged to your credit card.
+Apps deployed to Heroku, and other cloud providers, are subject to thousands of foreign and domestic hackers attempting to infiltrate your server and obtain secret information. If you get pwned, the hacker could take your account credentials, and within minutes have an army of servers mining Bitcoin, with server costs charged to your credit card.
 
 Security for your web servers must be taken very seriously.
 

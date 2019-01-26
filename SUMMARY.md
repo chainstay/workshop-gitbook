@@ -28,5 +28,7 @@
 * [Let's Write a Web Server!](hello-flask/lets-write-a-web-server.md)
 * [Adding a New Path](hello-flask/configuring-our-server.md)
 * [Working a little faster](hello-flask/working-a-little-faster.md)
+* [Accepting user input](hello-flask/accepting-user-input.md)
+* [The internet is made of cats](hello-flask/the-internet-is-made-of-cats.md)
 * [What's next?](hello-flask/whats-next.md)
 
