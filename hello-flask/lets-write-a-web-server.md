@@ -107,11 +107,17 @@ http://127.0.0.1:5000/say_hello
 
 You should see something like this:
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
+
+If you look at your terminal, you'll see a log of the request. You'll also notice an `http` `method`, `path`, and `status code`.
+
+```bash
+127.0.0.1 - - [CURRENT_DATE CURRENT_TIME] "GET /say_hello HTTP/1.1" 200 -
+```
 
 {% hint style="success" %}
 If you can access your server and see "Hello World!", you're ready to move on.
 {% endhint %}
 
-![Yes, you can!](../.gitbook/assets/image%20%284%29.png)
+![Yes, you can!](../.gitbook/assets/image%20%288%29.png)
 

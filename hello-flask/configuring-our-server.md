@@ -83,7 +83,7 @@ Go back to your terminal and press `CTRL+C` , that is `control` then `c`, to qui
 
 Once your server starts running, you should be able to access it at the `root path`: `/`.
 
-![No path necessary!](../.gitbook/assets/image%20%286%29.png)
+![No path necessary!](../.gitbook/assets/image.png)
 
 Notice that the text we see on the screen is the same as the `string` that we `return` in our `functions` `hello`, and `index`. This is because Flask will take the string that we `return` and convert it into an `HTTP` `response` that your web browser understands. Thanks, Flask!
 

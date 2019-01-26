@@ -18,7 +18,7 @@ A terminal is another way to use your computer. Back in the 1980's, before Mac a
 2. Search for: Terminal
 3. Open the Terminal application, it should look like the image below 
 
-![The icon for your terminal](../.gitbook/assets/image%20%281%29.png)
+![The icon for your terminal](../.gitbook/assets/image%20%286%29.png)
 {% endtab %}
 
 {% tab title="Windows" %}

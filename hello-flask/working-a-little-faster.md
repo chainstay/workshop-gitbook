@@ -79,5 +79,23 @@ When you set an `environment variable` with the command above, it will only last
 It is possible to persist `environment variables` so you don't have to re-set them every time. Check out these guides for how to do so on [Mac](https://medium.com/@himanshuagarwal1395/setting-up-environment-variables-in-macos-sierra-f5978369b255) and [Windows](http://www.forbeslindesay.co.uk/post/42833119552/permanently-set-environment-variables-on-windows)
 {% endhint %}
 
+## localhost
 
+Up until now, we've had to either copy-paste, or type `127.0.0.1` in order to access our server. This isn't the easiest thing to type, so let's use a shortcut: `localhost`.
+
+`localhost` is a shortcut for the `ip address` `127.0.0.1`. While it's true that all computers on the internet have `ip addresses`, there are a few `ip ranges` that are reserved for specific purposes. The ip address `127.0.0.1` is a reserved address that will never access a computer on the internet. It will _only_ access a server running on your computer.
+
+The `localhost` shortcut makes it easier to access your server, because it's much easier to remember `localhost` than it is to remember `127.0.0.1`.
+
+Try accessing your Flask server with the following URL:
+
+```bash
+http://localhost:5000/
+```
+
+You should find that it works just the same way as `127.0.0.1`.
+
+{% hint style="info" %}
+For a list of all reserved IP addresses, check out [this Wikipedia page](https://en.wikipedia.org/wiki/Reserved_IP_addresses)
+{% endhint %}
 

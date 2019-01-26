@@ -40,7 +40,7 @@ You'll see the phrase `Hello, world` a lot in programming. [Here's why](https://
 If this is your first time learning these concepts, they may not make sense. That's perfectly normal, these things take time to learn. You may want to take a quick detour to practice writing `print` statements with different `string` values here in this [Python sandbox](https://www.python.org/shell/).
 {% endhint %}
 
-![You may want to take some time practicing with print statements. Use the link above.](../.gitbook/assets/image.png)
+![You may want to take some time practicing with print statements. Use the link above.](../.gitbook/assets/image%20%287%29.png)
 
 {% hint style="success" %}
 Feel free to move on even if this material doesn't make complete sense. We'll be reinforcing these ideas all throughout the workshop. Just remember the following core concepts:
