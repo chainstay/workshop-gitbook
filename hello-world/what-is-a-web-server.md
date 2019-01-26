@@ -41,7 +41,7 @@ The three parts that we will not be covering in this workshop are:
 * `.com`: When you add `.com` to `google`, you get Google's `domain name`. This becomes important when you want to make your server available on the Internet, but don't worry about it for now.
 
 {% hint style="info" %}
-You won't need to learn about the difference between `HTTP` and `HTTPS` protocols, or the `subdomain` for some time as they are advanced concepts.
+You won't need to learn about the difference between `HTTP` and `HTTPS` protocols, or the `subdomain` for some time as they are advanced concepts. If you're interested in learning more, check out the Wikipedia pages for the concepts that interest you.
 {% endhint %}
 
 {% hint style="success" %}
