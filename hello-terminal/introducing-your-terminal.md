@@ -12,6 +12,10 @@ A terminal is another way to use your computer. Back in the 1980's, before Mac a
 
 ## Let's open your terminal
 
+{% hint style="warning" %}
+Some of the instructions in this workshop will be **different** for **Mac** and **Windows** computers. If you are using a **Windows** laptop, be sure to click `Windows` on this an all following tabs.
+{% endhint %}
+
 {% tabs %}
 {% tab title="Mac" %}
 1. Click the 🔍on the right-hand corner of your screen
