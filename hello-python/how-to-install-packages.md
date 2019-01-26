@@ -16,7 +16,15 @@ We'll be using a package called `Flask` to do most of our work today. But before
 
 We need to make sure that `pip` is installed before we proceed. So run the following command in your terminal:
 
+{% tabs %}
+{% tab title="Mac" %}
 `pip --version`
+{% endtab %}
+
+{% tab title="Windows" %}
+`py -m pip --version`
+{% endtab %}
+{% endtabs %}
 
 You should see a version number, similar to `10.0.1`.
 

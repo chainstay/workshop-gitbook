@@ -117,6 +117,14 @@ In order to run our server, we'll need the `Flask` package. Install it using you
 
 Now that you have your first server written, let's run it!
 
+{% hint style="warning" %}
+For those of you using Windows computers, the next command, `flask run` may not work. If you do not see output resembling what is written below, then you will need to launch flask using the following command:
+
+`py -m flask.cli run`
+
+Use that command, instead of `flask run` any time you are running your server. Sorry. Coding is sometimes harder on Windows.
+{% endhint %}
+
 ```bash
 flask run
  * Environment: production
