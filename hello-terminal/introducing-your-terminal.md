@@ -97,7 +97,7 @@ What you see there is a `file path`. File paths are what you will use to navigat
 1. Open your terminal and run the following commands: 
 2. `cd`
 3. `mkdir folder_1`
-4. `cd ./folder_1`
+4. `cd folder_1`
 5. `ls`
 6. You should see nothing returned, that's good
 7. `touch file_1.txt`
@@ -113,7 +113,7 @@ What you see there is a `file path`. File paths are what you will use to navigat
 17. Confirm with `pwd`
 18. `cd`
 19. Now you're back in the home directory
-20. `ls ./folder_1`
+20. `ls folder_1`
 21. You should see your `file_1.txt` and `folder_2`
 
 #### Phew.
