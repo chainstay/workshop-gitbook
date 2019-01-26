@@ -53,11 +53,9 @@ Now use your preferred text editor to open your new `app.py` file.
 ```bash
 # start from your code directory
 cd C:\code
-# create a directory for your code
-mkdir flask_workshop
-# enter your new directory, so you can work in it easily
-cd flask_workshop
+# create a new file for your Python code
 # by convention, Flask applications are named app.py
+echo. > app.py
 ```
 
 Now use your preferred text editor to open your new `app.py` file.
