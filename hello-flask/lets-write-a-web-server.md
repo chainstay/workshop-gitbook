@@ -59,6 +59,10 @@ echo. > app.py
 ```
 
 Now use your preferred text editor to open your new `app.py` file.
+
+{% hint style="warning" %}
+If you are using Notepad as your text editor, you may not see `app.py` when you look into your `C:\code` directory. This is usually because Notepad, by default, only looks for `.txt` files and not `.py` files. Make sure that you are opening "All Files" and not just "Text Documents".
+{% endhint %}
 {% endtab %}
 {% endtabs %}
 
@@ -98,7 +102,15 @@ def hello():  # Here, we create a function for the /say_hello path
 
 In order to run our server, we'll need the `Flask` package. Install it using your `terminal` like so:
 
+{% tabs %}
+{% tab title="Mac" %}
 `pip install Flask`
+{% endtab %}
+
+{% tab title="Windows" %}
+`py -m pip install Flask`
+{% endtab %}
+{% endtabs %}
 
 Now that you have your first server written, let's run it!
 

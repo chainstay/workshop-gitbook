@@ -24,7 +24,15 @@ You should see a version number, similar to `10.0.1`.
 
 You can use `pip` to install `packages` written by other Python developers. Let's install a Python package for making animations in your terminal.
 
+{% tabs %}
+{% tab title="Mac" %}
 `pip install asciimatics`
+{% endtab %}
+
+{% tab title="Windows" %}
+`py -m pip install asciimatics`
+{% endtab %}
+{% endtabs %}
 
 Now let's take a script that I wrote, and test that everything is working:
 
