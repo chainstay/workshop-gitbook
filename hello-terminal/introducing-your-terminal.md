@@ -26,11 +26,11 @@ Some of the instructions in this workshop will be **different** for **Mac** and 
 {% endtab %}
 
 {% tab title="Windows" %}
-![](../.gitbook/assets/image%20%287%29.png)
-
 1. Press the `Windows` key
 2. Type `cmd`
 3. Click on `Command Prompt`
+
+![Open Command Prompt to open your terminal](../.gitbook/assets/image%20%287%29.png)
 {% endtab %}
 {% endtabs %}
 
