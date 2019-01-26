@@ -5,6 +5,7 @@
 ## Hello Training
 
 * [Start Here](hello-training/start-here.md)
+* [Quick Disclaimers](hello-training/quick-disclaimers.md)
 
 ## Hello World
 
