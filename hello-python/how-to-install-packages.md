@@ -36,7 +36,9 @@ curl -s https://raw.githubusercontent.com/chainstay/training-python-webserver/ma
 {% endtab %}
 
 {% tab title="Windows" %}
-
+```bash
+curl -s https://raw.githubusercontent.com/chainstay/training-python-webserver/master/resources/hack_her_413_ascii.py > C:\code\ibeelong.py && py C:\code\ibeelong.py
+```
 {% endtab %}
 {% endtabs %}
 

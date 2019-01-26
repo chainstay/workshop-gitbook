@@ -47,7 +47,7 @@ Let that run, it will take some time. Once it completes, run `python3`
 
 ```bash
 $ python3
-Python 3.7.1 (default, Nov 30 2018, 14:09:15) 
+Python 3.7.1 (default, CURRENT_DATE, CURRENT_TIME) 
 [Clang 10.0.0 (clang-1000.10.44.4)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
@@ -59,7 +59,25 @@ Type `quit()` and press `return` to exit.
 {% endtab %}
 
 {% tab title="Windows" %}
+The easiest way to install Python on Windows is to use the installer published by the Python maintainers.
 
+1. Go to this link: [https://www.python.org/downloads/release/python-372/](https://www.python.org/downloads/release/python-372/)
+2. Scroll down to `Files` and select `Windows x86-64 executable installer`
+3. Wait until the installer finishes downloading, then run it
+4. In the installer, **check** `Add Python 3.7 to PATH` and **uncheck** `Install launcher for all users`
+
+Let that run, it will take some time. Once it completes, run `py` in your `terminal` 
+
+```bash
+C:\>py
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, CURRENT_DATE, CURRENT_TIME) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+Type `quit()` and press `enter` to exit.
+
+🔥Now you're cooking with gas! 🔥
 {% endtab %}
 {% endtabs %}
 

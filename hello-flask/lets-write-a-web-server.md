@@ -50,7 +50,17 @@ Now use your preferred text editor to open your new `app.py` file.
 {% endtab %}
 
 {% tab title="Windows" %}
+```bash
+# start from your code directory
+cd C:\code
+# create a directory for your code
+mkdir flask_workshop
+# enter your new directory, so you can work in it easily
+cd flask_workshop
+# by convention, Flask applications are named app.py
+```
 
+Now use your preferred text editor to open your new `app.py` file.
 {% endtab %}
 {% endtabs %}
 
@@ -88,6 +98,10 @@ def hello():  # Here, we create a function for the /say_hello path
 
 ## Running your server
 
+In order to run our server, we'll need the `Flask` package. Install it using your `terminal` like so:
+
+`pip install Flask`
+
 Now that you have your first server written, let's run it!
 
 ```bash
@@ -119,5 +133,5 @@ If you look at your terminal, you'll see a log of the request. You'll also notic
 If you can access your server and see "Hello World!", you're ready to move on.
 {% endhint %}
 
-![Yes, you can!](../.gitbook/assets/image%20%2815%29.png)
+![Yes, you can!](../.gitbook/assets/image%20%2816%29.png)
 

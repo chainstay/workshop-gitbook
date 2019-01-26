@@ -81,17 +81,17 @@ That's a lot to take in. Let's break it down.
 
 Now, when you go to `localhost:5000/say_hello`, you should see an `HTML` `form`
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 Type in a name to the input box, and click `Send POST`
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 Hello, dog!
 
-![](../.gitbook/assets/image%20%288%29.png)
-
 ![](../.gitbook/assets/image%20%289%29.png)
+
+![](../.gitbook/assets/image%20%2810%29.png)
 
 {% hint style="success" %}
 If everything goes well, you should see a new type of server log statement in your terminal!
