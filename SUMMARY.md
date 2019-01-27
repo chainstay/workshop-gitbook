@@ -28,8 +28,12 @@
 
 * [Let's Write a Web Server!](hello-flask/lets-write-a-web-server.md)
 * [Adding a New Path](hello-flask/configuring-our-server.md)
-* [Working a little faster](hello-flask/working-a-little-faster.md)
-* [Accepting user input](hello-flask/accepting-user-input.md)
-* [The internet is made of cats](hello-flask/the-internet-is-made-of-cats.md)
-* [What's next?](hello-flask/whats-next.md)
+* [Checking in](hello-flask/checking-in.md)
+
+## Ramping things up
+
+* [Working a little faster](ramping-things-up/working-a-little-faster.md)
+* [Accepting user input](ramping-things-up/accepting-user-input.md)
+* [The internet is made of cats](ramping-things-up/the-internet-is-made-of-cats.md)
+* [What's next?](ramping-things-up/whats-next.md)
 

@@ -81,11 +81,11 @@ That's a lot to take in. Let's break it down.
 
 Now, when you go to `localhost:5000/say_hello`, you should see an `HTML` `form`
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 Type in a name to the input box, and click `Send POST`
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 Hello, dog!
 

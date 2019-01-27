@@ -109,7 +109,7 @@ Now, when you submit your form at `/say_hello`, you should see a picture!
 
 **Say, you submit an animal that your server doesn't understand**
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 Your server can handle it! ✅
 

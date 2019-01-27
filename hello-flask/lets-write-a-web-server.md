@@ -154,5 +154,5 @@ If you look at your terminal, you'll see a log of the request. You'll also notic
 If you can access your server and see "Hello World!", you're ready to move on.
 {% endhint %}
 
-![Yes, you can!](../.gitbook/assets/image%20%2816%29.png)
+![Yes, you can!](../.gitbook/assets/image%20%2817%29.png)
 
