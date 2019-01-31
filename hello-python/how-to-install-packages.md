@@ -18,11 +18,23 @@ We need to make sure that `pip` is installed before we proceed. So run the follo
 
 {% tabs %}
 {% tab title="Mac" %}
-`pip --version`
+`pip3 --version`
+
+{% hint style="warning" %}
+When referring to `pip`, we pronounce it pɪp or "pihp". However, the command you use to run `pip` will be different depending on how you install python.
+
+For this workshop, run `pip` with the `pip3` command.
+{% endhint %}
 {% endtab %}
 
 {% tab title="Windows" %}
 `py -m pip --version`
+
+{% hint style="warning" %}
+When referring to `pip`, we pronounce it pɪp or "pihp". However, the command you use to run `pip` will be different depending on how you install python.
+
+For this workshop, run `pip` by using the `py` command. In other words, you run `python` with `py`, and you run `pip` with `py -m pip`.
+{% endhint %}
 {% endtab %}
 {% endtabs %}
 
@@ -34,7 +46,7 @@ You can use `pip` to install `packages` written by other Python developers. Let'
 
 {% tabs %}
 {% tab title="Mac" %}
-`pip install asciimatics`
+`pip3 install asciimatics`
 {% endtab %}
 
 {% tab title="Windows" %}
@@ -42,16 +54,36 @@ You can use `pip` to install `packages` written by other Python developers. Let'
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+Don't worry if you get a warning similar to: `You are using pip version ... however version ... is available.`
+
+This warning is not important for the scope of this workshop, but feel free to ask about it if you're curious to learn more.
+{% endhint %}
+
+
+
 Now let's take a script that I wrote, and test that everything is working:
 
 {% tabs %}
 {% tab title="Mac" %}
+Copy this command in its entirety and run it in your terminal.
+
+{% hint style="warning" %}
+You can copy code blocks by clicking the rectangle box to the right of the visible text below.
+{% endhint %}
+
 ```bash
 curl -s https://raw.githubusercontent.com/chainstay/training-python-webserver/master/resources/hack_her_413_ascii.py > /tmp/ibeelong.py && python3 /tmp/ibeelong.py
 ```
 {% endtab %}
 
 {% tab title="Windows" %}
+Copy this command in its entirety and run it in your terminal.
+
+{% hint style="warning" %}
+You can copy code blocks by clicking the rectangle box to the right of the visible text below.
+{% endhint %}
+
 ```bash
 curl -s https://raw.githubusercontent.com/chainstay/training-python-webserver/master/resources/hack_her_413_ascii.py > C:\code\ibeelong.py && py C:\code\ibeelong.py
 ```

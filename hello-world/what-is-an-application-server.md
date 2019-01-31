@@ -4,7 +4,7 @@ description: Let's bring it all together
 
 # What is an Application Server?
 
-## Intro the Application Server
+## Application servers are custom web servers
 
 An application server is a web server that runs your code.
 

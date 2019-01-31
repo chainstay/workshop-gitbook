@@ -43,7 +43,7 @@ Now that Homebrew is installed, we can use it to install Python.
 
 In your terminal, run `brew install python3`
 
-Let that run, it will take some time. Once it completes, run `python3`
+Let that run, it will take some time. Once it completes, run `python3` from any directory in your `terminal`
 
 ```bash
 $ python3
@@ -56,6 +56,10 @@ Type "help", "copyright", "credits" or "license" for more information.
 Type `quit()` and press `return` to exit.
 
 🔥Now you're cooking with gas! 🔥
+
+{% hint style="info" %}
+Wondering what the `3` is for in `python3`? It's a long story. The short version is that many python programmers need an easy way to have multiple versions of python \(i.e. `2.x`, and `3.x`\) on their computers at the same time. Many people run `python 2` with `python` and they run `python 3` with `python3`.
+{% endhint %}
 {% endtab %}
 
 {% tab title="Windows" %}
@@ -66,10 +70,10 @@ The easiest way to install Python on Windows is to use the installer published b
 3. Wait until the installer finishes downloading, then run it
 4. In the installer, **check** `Add Python 3.7 to PATH` and **uncheck** `Install launcher for all users`
 
-Let that run, it will take some time. Once it completes, run `py` in your `terminal` 
+Let that run, it will take some time. Once it completes, run `py` from any directory in your `terminal` 
 
 ```bash
-C:\>py
+py
 Python 3.7.2 (tags/v3.7.2:9a3ffc0492, CURRENT_DATE, CURRENT_TIME) [MSC v.1916 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
@@ -84,4 +88,6 @@ Type `quit()` and press `enter` to exit.
 {% hint style="success" %}
 Once you have Python installed, you're almost ready to write some code!
 {% endhint %}
+
+
 

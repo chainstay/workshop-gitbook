@@ -18,13 +18,13 @@ In this workshop, you'll write a very simple web server. It will set the foundat
 
 ### How do servers work?
 
-Web servers speak a specific language: `HTTP`. When your `client` is communicating with the `server`, you will make an `HTTP` `request`, and the server will provide an `HTTP` `response`.
+Web servers speak a specific language: `HTTP`. When your `client` is communicating with the `server`, you will make an `HTTP` `request`, that request will `resolve` to a specific server, and the server will provide an `HTTP` `response`.
 
 ### HTTP Requests
 
 `GET https://www.google.com/search?q=hackher413`
 
-There are five parts to this HTTP Request, but we are only going to focus on three:
+There are seven parts to this HTTP Request, but we are only going to focus on three:
 
 * `GET`: This is the `METHOD`. `HTTP` has many methods, but the only ones we need to focus on now are `GET` and `POST`
   * `GET`: Retrieve data from the server
@@ -32,13 +32,13 @@ There are five parts to this HTTP Request, but we are only going to focus on thr
 * `google`: This is the `hostname`. For our work today, your `hostname` is going to be `localhost`
   * `localhost` is a special hostname. It will never access the internet. It will only ever `resolve` to your personal computer. We'll learn more about `localhost` later in the workshop.
 * `/search`: This is the `path`. When you build a server later in the workshop, you will define your own paths. They are usually named after the action you are trying to take at a specific `url`. 
-* `?q=hackher413`: This is the `query`. The query for google.com is a `q`, but it can be anything you want. We'll learn more about the `query` later in the workshop.
 
 The three parts that we will not be covering in this workshop are:
 
 * `https://`: This is a secure extension of the `HTTP protocol`. We won't be covering this today, but see resources below to learn more.
-* `www`: This is called the `subnet`. This is an advanced topic, so we will not cover it here.
+* `www`: This is an example of a `subdomain`. This is an advanced topic, so we will not cover it here.
 * `.com`: When you add `.com` to `google`, you get Google's `domain name`. This becomes important when you want to make your server available on the Internet, but don't worry about it for now.
+* `?q=hackher413`: This is the `query`. The query for google.com is a `q`, but it can be anything you want. You will learn a little more about the `query` later in the workshop.
 
 {% hint style="info" %}
 You won't need to learn about the difference between `HTTP` and `HTTPS` protocols, or the `subdomain` for some time as they are advanced concepts. If you're interested in learning more, check out the Wikipedia pages for the concepts that interest you.

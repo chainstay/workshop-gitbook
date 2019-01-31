@@ -18,35 +18,37 @@ Here are some suggestions for software you can use to write Python code
 
 {% tabs %}
 {% tab title="Mac or Linux" %}
-#### Free Text Editors
-
-* [Visual Studio Code](https://code.visualstudio.com/download)
-* * You'll also need the [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-* [Atom](https://atom.io/)
-
-#### Paid editors
-
-* [Sublime Text](https://www.sublimetext.com/3) \(perpetual free trial\)
-
-#### Simple text editors \(Mac Only\)
-
-* Text Edit \(you must [enable Plain Text mode](https://www.tekrevue.com/tip/textedit-plain-text-mode/)\)
-{% endtab %}
-
-{% tab title="Windows" %}
-#### Free Text Editors
+#### Text editors for Code
 
 * [Visual Studio Code](https://code.visualstudio.com/download)
   * You'll also need the [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * [Atom](https://atom.io/)
-
-#### Paid editors
-
 * [Sublime Text](https://www.sublimetext.com/3) \(perpetual free trial\)
 
-**Simple text editors**
+Basic text editor _\(Not recommended\)_
+
+* Text Edit \(you must [enable Plain Text mode](https://www.tekrevue.com/tip/textedit-plain-text-mode/)\)
+
+{% hint style="warning" %}
+Though Text Edit will allow you to write code, it is _far_ more difficult to do so than if you use a text editor well-suited to programming. You will save yourself some heartache if you install a text editor.
+{% endhint %}
+{% endtab %}
+
+{% tab title="Windows" %}
+#### Text editors for Code
+
+* [Visual Studio Code](https://code.visualstudio.com/download)
+  * You'll also need the [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* [Atom](https://atom.io/)
+* [Sublime Text](https://www.sublimetext.com/3) \(perpetual free trial\)
+
+Basic text editor _\(Not recommended\)_
 
 * Notepad
+
+{% hint style="warning" %}
+Though Notepad will allow you to write code, it is _far_ more difficult to do so than if you use a text editor well-suited to programming. You will save yourself some heartache if you install a text editor.
+{% endhint %}
 {% endtab %}
 {% endtabs %}
 

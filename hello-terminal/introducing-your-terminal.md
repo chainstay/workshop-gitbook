@@ -18,6 +18,8 @@ Some of the instructions in this workshop will be **different** for **Mac** and 
 
 {% tabs %}
 {% tab title="Mac" %}
+Input the following commands into your computer:
+
 1. Click the 🔍on the right-hand corner of your screen
 2. Search for: Terminal
 3. Open the Terminal application, it should look like the image below 
@@ -26,6 +28,8 @@ Some of the instructions in this workshop will be **different** for **Mac** and 
 {% endtab %}
 
 {% tab title="Windows" %}
+Input the following commands into your computer:
+
 1. Press the `Windows` key
 2. Type `cmd`
 3. Click on `Command Prompt`
@@ -38,6 +42,8 @@ Some of the instructions in this workshop will be **different** for **Mac** and 
 
 {% tabs %}
 {% tab title="Mac" %}
+Run a few more commands, then I'll break it down for you.
+
 1. You should see a `$`. This means that your computer is ready to accept a command, as text.
 2. Type `cd ~/Documents` and press `return` on your keyboard.
 3. Now type `ls` and press `return`.
@@ -65,6 +71,8 @@ What you see there is a `file path`. File paths are what you will use to navigat
 {% endtab %}
 
 {% tab title="Windows" %}
+Run a few more commands, then I'll break it down for you.
+
 1. You should see a `C:\Users\YOUR_USERNAME`. This means that your computer is ready to accept a command, as text.
 2. Type `cd C:\` and press `enter` on your keyboard.
 3. Type `dir` and press `enter`.
@@ -72,6 +80,7 @@ What you see there is a `file path`. File paths are what you will use to navigat
 4. Now type `mkdir code` and press `enter`.
 5. Run the `dir` command again
 6. You should see a new directory, called `code`
+7. Lastly, run `chdir`
 
 #### What just happened?
 
@@ -94,6 +103,8 @@ What you see there is a `file path`. File paths are what you will use to navigat
 
 {% tabs %}
 {% tab title="Mac" %}
+Now, let's create some files and folders!
+
 1. Open your terminal and run the following commands: 
 2. `cd`
 3. `mkdir folder_1`
@@ -129,26 +140,29 @@ In this exercise, you practiced using `relative paths`. Contrary to `absolute pa
 {% endtab %}
 
 {% tab title="Windows" %}
-1. `cd C:\code`
-2. `mkdir folder_1`
-3. `cd ./folder_1`
-4. `dir`
-5. You should see `0 File(s)`, that's good
-6. `echo. > file_1.txt`
-7. `dir`
-8. You should see a new file, `file_1.txt`
-9. `mkdir folder_2`
-10. `cd folder_2`
-11. `dir`
-12. You're in an empty directory, so you should see no files
-13. `cd ..`
-14. `dir`
-15. Now, you're back in your `folder_1` directory
-16. Confirm with `chdir`
-17. `cd C:\code`
-18. Now you're back in the `code` directory
-19. `dir ./folder_1`
-20. You should see your `file_1.txt` and `folder_2`
+Now, let's create some files and folders!
+
+1. Open your terminal and run the following commands: 
+2. `cd C:\code`
+3. `mkdir folder_1`
+4. `cd folder_1`
+5. `dir`
+6. You should see `0 File(s)`, that's good
+7. `echo. > file_1.txt`
+8. `dir`
+9. You should see a new file, `file_1.txt`
+10. `mkdir folder_2`
+11. `cd folder_2`
+12. `dir`
+13. You're in an empty directory, so you should see no files
+14. `cd ..`
+15. `dir`
+16. Now, you're back in your `folder_1` directory
+17. Confirm with `chdir`
+18. `cd C:\code`
+19. Now you're back in the `code` directory
+20. `dir folder_1`
+21. You should see your `file_1.txt` and `folder_2`
 
 #### Phew.
 

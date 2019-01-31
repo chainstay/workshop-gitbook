@@ -93,6 +93,10 @@ Hello, dog!
 
 ![](../.gitbook/assets/image%20%2810%29.png)
 
+{% hint style="info" %}
+You don't have to accept all user data using a `POST`, you can also accept it using a `GET` by reading data from the `query`. If present, `query` data can be accessed using `request.args`. For example, if the `query` on your `GET` request is `?q=dogs`, then you could retrieve `dogs` in your code with `request.args.get('q')`.
+{% endhint %}
+
 {% hint style="success" %}
 If everything goes well, you should see a new type of server log statement in your terminal!
 
