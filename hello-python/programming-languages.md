@@ -58,5 +58,7 @@ You _cannot_ write code using rich text editors like Microsoft Word, Google Docs
 
 {% hint style="success" %}
 Once you have a text editor installed, if necessary, and running, you're ready to move on.
+
+You will know that your text editor is ready to go when, by default, `all of the letters have the same width, just like this`
 {% endhint %}
 

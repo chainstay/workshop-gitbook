@@ -26,19 +26,13 @@ For a refresher on HTTP requests and responses, look back to [What is a web serv
 Let's create a new directory to store your project.
 
 {% hint style="warning" %}
-We're going to be typing a lot of commands in your terminal. To save space, the commands will be explained with `# code comments`. If you're typing commands yourself, you don't have to type the `#` or anything after it.
-
-For example:
+We're going to be typing a lot of commands in your terminal. To save space, the commands will be explained with `# code comments`. **If you were to type the command below, you would only need to type `cd my_folder`**
 
 `cd my_folder  # create my_folder your present working directory`
-
-In the above example, you only have to type `cd my_folder`.
 {% endhint %}
 
 {% tabs %}
 {% tab title="Mac" %}
-
-
 ```bash
 cd  # start from your home directory
 mkdir flask_workshop # create a directory for your code
@@ -85,7 +79,19 @@ Some code is `interpreted` while other code is `compiled`. This depends on the p
 
 ### How to get started
 
-Before we input any commands, let's outline the steps we will need to take before you can run your code:
+Let's install a new python package called `Flask` that we will need later to run our server. Install it using your `terminal` like so:
+
+{% tabs %}
+{% tab title="Mac" %}
+`pip3 install Flask`
+{% endtab %}
+
+{% tab title="Windows" %}
+`py -m pip install Flask`
+{% endtab %}
+{% endtabs %}
+
+Before we input any more commands, let's outline the steps we will need to take before you can run your code:
 
 1. Create a file with a `.py` extension. Today, this should be `app.py`.
 2. Open `app.py` using your text editor.
@@ -130,20 +136,6 @@ def hello():  # Here, we create a function for the /say_hello path
 {% endcode-tabs %}
 
 ## Running your server
-
-In order to run our server, we'll need the `Flask` package. Install it using your `terminal` like so:
-
-{% tabs %}
-{% tab title="Mac" %}
-`pip3 install Flask`
-{% endtab %}
-
-{% tab title="Windows" %}
-`py -m pip install Flask`
-{% endtab %}
-{% endtabs %}
-
-Now that you have your first server written, let's run it!
 
 If you haven't already, open your `terminal` and `cd` into the location of your `app.py` file.
 

@@ -23,7 +23,7 @@ We need to make sure that `pip` is installed before we proceed. So run the follo
 {% hint style="warning" %}
 When referring to `pip`, we pronounce it pɪp or "pihp". However, the command you use to run `pip` will be different depending on how you install python.
 
-For this workshop, run `pip` with the `pip3` command.
+For this workshop, use the `pip3` command to run `pip`.
 {% endhint %}
 {% endtab %}
 
@@ -33,7 +33,7 @@ For this workshop, run `pip` with the `pip3` command.
 {% hint style="warning" %}
 When referring to `pip`, we pronounce it pɪp or "pihp". However, the command you use to run `pip` will be different depending on how you install python.
 
-For this workshop, run `pip` by using the `py` command. In other words, you run `python` with `py`, and you run `pip` with `py -m pip`.
+For this workshop, use the `py -m pip` command to run `pip`. In other words, you run `python` with `py`, and you run `pip` with `py -m pip`.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
@@ -66,7 +66,7 @@ Now let's take a script that I wrote, and test that everything is working:
 
 {% tabs %}
 {% tab title="Mac" %}
-Copy this command in its entirety and run it in your terminal.
+Copy this command in its entirety, paste it into your terminal, and run it.
 
 {% hint style="warning" %}
 You can copy code blocks by clicking the rectangle box to the right of the visible text below.
@@ -78,7 +78,7 @@ curl -s https://raw.githubusercontent.com/chainstay/training-python-webserver/ma
 {% endtab %}
 
 {% tab title="Windows" %}
-Copy this command in its entirety and run it in your terminal.
+Copy this command in its entirety, paste it into your terminal, and run it.
 
 {% hint style="warning" %}
 You can copy code blocks by clicking the rectangle box to the right of the visible text below.

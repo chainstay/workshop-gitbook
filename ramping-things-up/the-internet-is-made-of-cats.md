@@ -26,6 +26,10 @@ Cat image examples:
 * [https://data.whicdn.com/images/298844185/large.jpg?t=1507433077](https://data.whicdn.com/images/298844185/large.jpg?t=1507433077)
 * [https://assets3.thrillist.com/v1/image/2558908/size/tmg-article\_tall.jpg](https://assets3.thrillist.com/v1/image/2558908/size/tmg-article_tall.jpg)
 
+{% hint style="warning" %}
+You can usually obtain the image URL by `right-clicking`  or `ctrl-left-clicking` an image and selecting `Copy Image Address`. You can make sure everything works by pasting the image into your web browser, going to that link, and ensuring that the only thing you can see is the image.
+{% endhint %}
+
 {% hint style="info" %}
 You need not limit yourself to dogs and cats. Your server is capable of a great many things.
 {% endhint %}
@@ -39,7 +43,10 @@ Once you've found an image URL of a dog, and another of a cat, you're ready to m
 Currently, when we accept form data at `/say_hello`, we simply parrot back the data that we receive. Instead, let's inspect the data, and use it to control actions that our server takes.
 
 ```python
-# abbreviated
+from flask import Flask, request
+
+app = Flask(__name__)
+
 
 @app.route('/say_hello', methods=('GET', 'POST'))
 def hello():
@@ -77,7 +84,10 @@ def hello():
         <image style="width: 100%" src="{image_src}" />
     '''.format(animal_name=animal, image_src=image_url)
 
-# abbreviated
+
+@app.route('/')
+def index():
+    return 'Welcome to the server root'
 
 ```
 

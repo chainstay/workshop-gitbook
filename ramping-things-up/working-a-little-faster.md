@@ -24,6 +24,10 @@ To run our server in `development mode`, we'll have to configure our `environmen
 
 In order to change Flask's behavior to run in `development mode` instead of `production mode` we need to `export` or `set` an `environment variable`.
 
+{% hint style="warning" %}
+If your server is still running in your terminal, quit your server with `ctrl-c` before moving on.
+{% endhint %}
+
 {% tabs %}
 {% tab title="Mac" %}
 ```bash
@@ -59,7 +63,7 @@ flask run
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 124-918-479
+ * Debugger PIN: XXX-XXX-XXX
 ```
 
 That's better! Now, try changing one of your `return` statements in `app.py`.
@@ -68,7 +72,7 @@ That's better! Now, try changing one of your `return` statements in `app.py`.
  * Detected change in '/Users/YOUR_USERNAME/flask-server/app.py', reloading
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 124-918-479
+ * Debugger PIN: XXX-XXX-XXX
 ```
 
 Look at that! Flask found a change in your `app.py` so it reloaded automatically. Pretty nifty.

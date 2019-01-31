@@ -11,7 +11,7 @@ _Web servers are really good at one job: sending data to many different people a
 Most of the time, that data is going to be HTML, CSS, and JavaScript files.
 
 {% hint style="info" %}
-Check out the other workshops or these free courses to learn more about: [HTML, CSS](https://www.udacity.com/course/intro-to-html-and-css--ud001), and [JavaScript](https://www.udacity.com/course/intro-to-javascript--ud803)
+Check out the other workshops or these free courses to learn more about: [HTML,](https://www.udacity.com/course/intro-to-html-and-css--ud001) [CSS](https://www.udacity.com/course/intro-to-html-and-css--ud001) and [JavaScript](https://www.udacity.com/course/intro-to-javascript--ud803)
 {% endhint %}
 
 In this workshop, you'll write a very simple web server. It will set the foundation for you to expand upon within your own projects.

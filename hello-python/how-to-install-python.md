@@ -15,12 +15,22 @@ Homebrew is the easiest install method for Python, but things can still go wrong
 #### Install Homebrew
 
 {% hint style="info" %}
-Homebrew is what programmers call a "Package Manager". It's purpose is to simplify the process of running other people's code. It can also be used to install programming languages, like Python.
+Homebrew is what programmers call a "Package Manager". Its purpose is to simplify the process of running other people's code. It can also be used to install programming languages, like Python.
 {% endhint %}
 
-1. Open your `terminal` \([return here](../hello-terminal/introducing-your-terminal.md) if you need help with this step\)
-2. You may need to install OSX Developer Tools. Run the following command: `xcode-select --install`. You'll get an error if it's already installed, but you can proceed nonetheless.
-3. Run the following command to install Homebrew: 
+{% hint style="warning" %}
+If this is your first time installing software using your terminal, you may be confused when your computer asks for your password. When it does, type in your computer's login password. Even though you won't see characters appearing in your terminal, they are in fact being entered. Press `return`, once you've entered all the characters of your password, to proceed.
+{% endhint %}
+
+**Open your `terminal`** \([return here](../hello-terminal/introducing-your-terminal.md) if you need help with this step\)
+
+**You may need to install OSX Developer Tools**. Run the following command: `xcode-select --install`. You'll get an error if it's already installed, but you can proceed nonetheless.
+
+{% hint style="info" %}
+When running `xcode-select` you may see some popups outside of your terminal. These are perfectly normal, go ahead and click through them to install `xcode-select`.
+{% endhint %}
+
+**Copy-paste the following command, in its entirety, to install Homebrew**. You can copy the whole command by clicking the gray box to the right-hand side of the text below.
 
 ```text
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -28,7 +38,7 @@ Homebrew is what programmers call a "Package Manager". It's purpose is to simpli
 
 Once that finishes, you should have Homebrew installed.
 
-You can confirm by running `brew --version` in your terminal. Your output should look similar to this:
+**You can confirm by running `brew --version`** in your terminal. Your output should look similar to this:
 
 ```bash
 $ brew --version

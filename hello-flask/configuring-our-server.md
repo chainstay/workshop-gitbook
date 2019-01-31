@@ -73,6 +73,10 @@ def index():
 
 Add the new code to your `app.py` and then save your file.
 
+{% hint style="warning" %}
+Notice that our new `path` has a different name, `index`, than our first one `hello`. All of your paths must be unique, within your `app.py`.
+{% endhint %}
+
 {% hint style="info" %}
 While it may be tempting to copy and paste code from this page into your `app.py` file, you will likely find that you learn more by typing the code in yourself. Avoid copy-pasting, as it can lead to a bunch of code that you depend on, but don't understand.
 {% endhint %}

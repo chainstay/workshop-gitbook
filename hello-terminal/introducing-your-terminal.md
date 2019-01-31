@@ -103,7 +103,7 @@ What you see there is a `file path`. File paths are what you will use to navigat
 
 {% tabs %}
 {% tab title="Mac" %}
-Now, let's create some files and folders!
+Now, let's create some files and folders! Again, run these commands then I will explain:
 
 1. Open your terminal and run the following commands: 
 2. `cd`
@@ -140,7 +140,7 @@ In this exercise, you practiced using `relative paths`. Contrary to `absolute pa
 {% endtab %}
 
 {% tab title="Windows" %}
-Now, let's create some files and folders!
+Now, let's create some files and folders! Again, run these commands then I will explain:
 
 1. Open your terminal and run the following commands: 
 2. `cd C:\code`
