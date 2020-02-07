@@ -1,39 +1,42 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [Workshop Agenda](README.md)
 
-## Hello Training
+## Install Python
 
-* [Start Here](hello-training/start-here.md)
-* [Quick Disclaimers](hello-training/quick-disclaimers.md)
+* [Introducing: Your Terminal](install-python/introducing-your-terminal.md)
+* [Introducing: Python](install-python/programming-languages.md)
+* [How to Install Python](install-python/how-to-install-python.md)
+* [Experiment with your new language](install-python/experiment-with-your-new-language.md)
 
-## Hello World
+## Vocabulary <a id="hello-world"></a>
 
-* [The Internet: a Programmer's Definition](hello-world/what-is-the-internet.md)
-* [What is a Web Server?](hello-world/what-is-a-web-server.md)
-* [What is a Programming Language?](hello-world/what-is-a-programming-language.md)
-* [What is an Application Server?](hello-world/what-is-an-application-server.md)
+* [Strings](hello-world/strings.md)
+* [Comments](hello-world/comments.md)
+* [Integers and Floats](hello-world/integers-and-floats.md)
+* [Functions](hello-world/functions.md)
+* [Loops](hello-world/loops.md)
 
-## Hello Terminal
+## Write some sentences
 
-* [Introducing: Your Terminal](hello-terminal/introducing-your-terminal.md)
+* [Hello, you!](write-some-sentences/hello-you.md)
+* [Basic math](write-some-sentences/basic-math.md)
+* [Print the numbers 1 through 10](write-some-sentences/print-the-numbers-1-through-10.md)
+* [Get some z's](write-some-sentences/get-some-zs.md)
+* [Spell out your name](write-some-sentences/spell-out-your-name.md)
+* [Put the computer to work](write-some-sentences/put-the-computer-to-work.md)
 
-## Hello Python
+## Your first .py file
 
-* [Introducing Python](hello-python/programming-languages.md)
-* [How to Install Python](hello-python/how-to-install-python.md)
-* [How to Install Packages](hello-python/how-to-install-packages.md)
+* [Writing code in a file](your-first-.py-file/writing-code-in-a-file.md)
+* [Adding more code](your-first-.py-file/adding-more-code.md)
 
-## Hello Flask
+## More vocabulary
 
-* [Let's Write a Web Server!](hello-flask/lets-write-a-web-server.md)
-* [Adding a New Path](hello-flask/configuring-our-server.md)
-* [Checking in](hello-flask/checking-in.md)
+* [Variables](more-vocabulary/variables.md)
+* [Conditionals](more-vocabulary/conditionals.md)
 
-## Ramping things up
+## More on functions
 
-* [Working a little faster](ramping-things-up/working-a-little-faster.md)
-* [Accepting user input](ramping-things-up/accepting-user-input.md)
-* [The internet is made of cats](ramping-things-up/the-internet-is-made-of-cats.md)
-* [What's next?](ramping-things-up/whats-next.md)
+* [Write your own function](more-on-functions/write-your-own-function.md)
 

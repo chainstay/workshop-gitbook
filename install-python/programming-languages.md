@@ -2,7 +2,7 @@
 description: Let's talk about Python and why we'll be using it
 ---
 
-# Introducing Python
+# Introducing: Python
 
 ## Why are we using Python?
 

@@ -44,11 +44,10 @@ Input the following commands into your computer:
 {% tab title="Mac" %}
 Run a few more commands, then I'll break it down for you.
 
-1. You should see a `$`. This means that your computer is ready to accept a command, as text.
-2. Type `cd ~/Documents` and press `return` on your keyboard.
-3. Now type `ls` and press `return`.
-4. You should see the contents of your `Documents` folder.
-5. Lastly, run the command `pwd`
+1. Type `cd ~/Documents` and press `return` on your keyboard.
+2. Now type `ls` and press `return`.
+3. You should see the contents of your `Documents` folder.
+4. Lastly, run the command `pwd`
 
 #### What just happened?
 
@@ -73,14 +72,13 @@ What you see there is a `file path`. File paths are what you will use to navigat
 {% tab title="Windows" %}
 Run a few more commands, then I'll break it down for you.
 
-1. You should see a `C:\Users\YOUR_USERNAME`. This means that your computer is ready to accept a command, as text.
-2. Type `cd C:\` and press `enter` on your keyboard.
-3. Type `dir` and press `enter`.
+1. Type `cd C:\` and press `enter` on your keyboard.
+2. Type `dir` and press `enter`.
    1. At this point, you should see some familiar directories, e.g. `Program Files`
-4. Now type `mkdir code` and press `enter`.
-5. Run the `dir` command again
-6. You should see a new directory, called `code`
-7. Lastly, run `chdir`
+3. Now type `mkdir code` and press `enter`.
+4. Run the `dir` command again
+5. You should see a new directory, called `code`
+6. Lastly, run `chdir`
 
 #### What just happened?
 

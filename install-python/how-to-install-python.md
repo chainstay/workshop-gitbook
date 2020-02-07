@@ -22,7 +22,7 @@ Homebrew is what programmers call a "Package Manager". Its purpose is to simplif
 If this is your first time installing software using your terminal, you may be confused when your computer asks for your password. When it does, type in your computer's login password. Even though you won't see characters appearing in your terminal, they are in fact being entered. Press `return`, once you've entered all the characters of your password, to proceed.
 {% endhint %}
 
-**Open your `terminal`** \([return here](../hello-terminal/introducing-your-terminal.md) if you need help with this step\)
+**Open your `terminal`** \([return here](introducing-your-terminal.md) if you need help with this step\)
 
 **You may need to install OSX Developer Tools**. Run the following command: `xcode-select --install`. You'll get an error if it's already installed, but you can proceed nonetheless.
 
@@ -66,25 +66,22 @@ Type "help", "copyright", "credits" or "license" for more information.
 Type `quit()` and press `return` to exit.
 
 🔥Now you're cooking with gas! 🔥
-
-{% hint style="info" %}
-Wondering what the `3` is for in `python3`? It's a long story. The short version is that many python programmers need an easy way to have multiple versions of python \(i.e. `2.x`, and `3.x`\) on their computers at the same time. Many people run `python 2` with `python` and they run `python 3` with `python3`.
-{% endhint %}
 {% endtab %}
 
 {% tab title="Windows" %}
-The easiest way to install Python on Windows is to use the installer published by the Python maintainers.
+The easiest way to install Python on Windows is to use the Microsoft Windows store.
 
-1. Go to this link: [https://www.python.org/downloads/release/python-372/](https://www.python.org/downloads/release/python-372/)
-2. Scroll down to `Files` and select `Windows x86-64 executable installer`
-3. Wait until the installer finishes downloading, then run it
-4. In the installer, **check** `Add Python 3.7 to PATH` and **uncheck** `Install launcher for all users`
+1. Press the `Windows` key, or click the Windows Icon at the bottom left-hand corner of your screen
+2. Type `store` and press `enter`
+3. Search for Python 3.8. Install it!
 
-Let that run, it will take some time. Once it completes, run `py` from any directory in your `terminal` 
+![](../.gitbook/assets/image%20%2818%29.png)
+
+Once the installation is finished, run `python3.8` from any directory in your `terminal` 
 
 ```bash
-py
-Python 3.7.2 (tags/v3.7.2:9a3ffc0492, CURRENT_DATE, CURRENT_TIME) [MSC v.1916 64 bit (AMD64)] on win32
+C:\Users\YOUR_USERNAME>python3.8
+Python 3.8.1 (tags/v3.8.1:1b293b6, TODAY'S DATE) [MSC v.1916 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
@@ -96,7 +93,7 @@ Type `quit()` and press `enter` to exit.
 {% endtabs %}
 
 {% hint style="success" %}
-Once you have Python installed, you're almost ready to write some code!
+Once you have Python installed, you're ready to write some code!
 {% endhint %}
 
 
