@@ -4,6 +4,10 @@ description: Welcome to the workshop. Let's get started!
 
 # Workshop Agenda
 
+## We'll be learning how to write code for software
+
+If you want to learn more about building websites, and you're starting from scratch, check out: [https://www.codecademy.com/learn/learn-html](https://www.codecademy.com/learn/learn-html)
+
 ## Introduce Python
 
 We'll start with a quick demonstration. Live coding! What could go wrong?
