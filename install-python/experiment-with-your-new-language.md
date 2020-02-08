@@ -4,6 +4,34 @@ description: Try running these commands in Python
 
 # Experiment with your new language
 
+## Run Python
+
+{% tabs %}
+{% tab title="Mac" %}
+Type the following command and press `enter`
+
+```bash
+python3
+```
+{% endtab %}
+
+{% tab title="Windows" %}
+Type the following command and press `enter`
+
+```bash
+python3.8
+```
+{% endtab %}
+{% endtabs %}
+
+You should see:
+
+```text
+>>>
+```
+
+That means that you can start writing code!
+
 ```python
 print('hello world')
 ```

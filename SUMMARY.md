@@ -4,8 +4,8 @@
 
 ## Install Python
 
+* [Install VS Code](install-python/run-python-in-vs-code.md)
 * [Install Required Software](install-python/install-required-software.md)
-* [Run Python in VS Code](install-python/run-python-in-vs-code.md)
 * [Experiment with your new language](install-python/experiment-with-your-new-language.md)
 * [Pause Here](install-python/pause-here.md)
 

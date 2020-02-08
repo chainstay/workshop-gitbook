@@ -1,4 +1,8 @@
-# Run Python in VS Code
+# Install VS Code
+
+## Install Here
+
+{% embed url="https://code.visualstudio.com/download" %}
 
 ## Open VS Code
 
@@ -28,31 +32,5 @@ Search for `Create new Integrated Terminal`
 Your terminal will likely look very different! That's expected :\)
 {% endhint %}
 
-## Run Python
 
-{% tabs %}
-{% tab title="Mac" %}
-Type the following command and press `enter`
-
-```bash
-python3
-```
-{% endtab %}
-
-{% tab title="Windows" %}
-Type the following command and press `enter`
-
-```bash
-python3.8
-```
-{% endtab %}
-{% endtabs %}
-
-You should see:
-
-```text
->>>
-```
-
-That means that you can start writing code!
 

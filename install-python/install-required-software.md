@@ -1,7 +1,5 @@
 # Install Required Software
 
-{% embed url="https://code.visualstudio.com/download" %}
-
 {% tabs %}
 {% tab title="Mac" %}
 {% embed url="https://brew.sh/" %}
