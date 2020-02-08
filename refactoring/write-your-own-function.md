@@ -123,6 +123,7 @@ do_math(0, 'subtract')
 {% code title="code.py" %}
 ```python
 def do_math(base, modifier, operation):
+    result = None
     if operation == 'add':
         result = base + modifier
     elif operation == 'multiply':
@@ -137,8 +138,8 @@ def do_math(base, modifier, operation):
     print(result)
 
 do_math(2, 2, 'multiply')
-do_math(2, 2, 'addition')
-do_math(25, 5, 'subtraction')
+do_math(2, 2, 'add')
+do_math(25, 5, 'subtract')
 
 ```
 {% endcode %}
