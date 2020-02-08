@@ -21,14 +21,12 @@ Now, using your terminal, find that file
 {% tabs %}
 {% tab title="Mac" %}
 ```bash
-cd ~/Code/
 ls
 ```
 {% endtab %}
 
 {% tab title="Windows" %}
 ```text
-cd C:\Users\YOUR_USERNAME\Code
 dir
 ```
 {% endtab %}

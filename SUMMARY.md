@@ -35,8 +35,10 @@
 
 * [Variables](more-vocabulary/variables.md)
 * [Conditionals](more-vocabulary/conditionals.md)
+* [Functions \(again!\)](more-vocabulary/functions-again.md)
 
-## More on functions
+## Bring it all together <a id="refactoring"></a>
 
-* [Write your own function](more-on-functions/write-your-own-function.md)
+* [Make your code reusable](refactoring/write-your-own-function.md)
+* [Advanced refactoring](refactoring/advanced-refactoring.md)
 

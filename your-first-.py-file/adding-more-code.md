@@ -21,3 +21,25 @@ for letter in ('abcdefghijklmnopqrstuvwxyz'):
 ```
 {% endcode %}
 
+Save and run that file the same way as before
+
+{% tabs %}
+{% tab title="Mac" %}
+```bash
+python3 code.py
+```
+{% endtab %}
+
+{% tab title="Windows" %}
+```
+python3.8 code.py
+```
+{% endtab %}
+{% endtabs %}
+
+
+
+
+
+
+
