@@ -110,9 +110,9 @@ def do_math(base, operation):
     print(result)
 
 
-do_math(2 'multiply')
-do_math(5 'add')
-do_math(0 'subtract')
+do_math(2, 'multiply')
+do_math(5, 'add')
+do_math(0, 'subtract')
 ```
 {% endcode %}
 
