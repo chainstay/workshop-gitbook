@@ -21,7 +21,6 @@
 
 * [Hello, you!](write-some-sentences/hello-you.md)
 * [Basic math](write-some-sentences/basic-math.md)
-* [Print the numbers 1 through 10](write-some-sentences/print-the-numbers-1-through-10.md)
 * [Get some z's](write-some-sentences/get-some-zs.md)
 * [Spell out your name](write-some-sentences/spell-out-your-name.md)
 * [Put the computer to work](write-some-sentences/put-the-computer-to-work.md)
